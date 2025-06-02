@@ -1,1 +1,34 @@
 /* write your override styles here */
+/* cleanup.css */
+.tag-1 {
+  /* cleanup styles here */
+}
+
+#tag-2 {
+  /* cleanup styles here */
+}
+
+
+#tag-3 {
+  /* override styles */
+}
+/* or */
+.slick.wicked {
+  /* override both combined */
+}
+.parent #tag-4 {
+  /* cleanup styles */
+}
+.parent .slick {
+  /* this targets tag-5 and others with class slick inside parent */
+}
+/* OR */
+#tag-5 {
+  /* more specific override */
+}
+#tag-6 {
+  /* works fine, ID is specific enough */
+}
+#tag-7.slick {
+  /* override graffiti styles here */
+}
